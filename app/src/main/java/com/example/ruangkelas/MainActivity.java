@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
     private void initImageBitmaps() {
         LinkGambar.add("https://www.pinclipart.com/picdir/middle/40-402207_clip-arts-related-to-iron-man-face-vector.png");
         NamaPemain.add("Bilal Suryananda");
-        PosisiPemain.add("Tamn Griya");
+        PosisiPemain.add("Taman Griya");
         UmurPemain.add("36 Tahun");
         WargaNegaraPemain.add("Chile");
         NoPemain.add("1");
@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
 
         LinkGambar.add("https://www.pinclipart.com/picdir/middle/40-402207_clip-arts-related-to-iron-man-face-vector.png");
         NamaPemain.add("Ari Wiradana");
-        PosisiPemain.add("Goalkeeper");
+        PosisiPemain.add("Kerobokan");
         UmurPemain.add("36 Tahun");
         WargaNegaraPemain.add("Chile");
         NoPemain.add("1");
@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
 
         LinkGambar.add("https://www.pinclipart.com/picdir/middle/40-402207_clip-arts-related-to-iron-man-face-vector.png");
         NamaPemain.add("Aditya Mahendra");
-        PosisiPemain.add("Goalkeeper");
+        PosisiPemain.add("Denpasar");
         UmurPemain.add("36 Tahun");
         WargaNegaraPemain.add("Chile");
         NoPemain.add("1");
@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
 
         LinkGambar.add("https://www.pinclipart.com/picdir/middle/40-402207_clip-arts-related-to-iron-man-face-vector.png");
         NamaPemain.add("Dwiki Krisnanda");
-        PosisiPemain.add("Goalkeeper");
+        PosisiPemain.add("Denpasar");
         UmurPemain.add("36 Tahun");
         WargaNegaraPemain.add("Chile");
         NoPemain.add("1");
@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
 
         LinkGambar.add("https://www.pinclipart.com/picdir/middle/40-402207_clip-arts-related-to-iron-man-face-vector.png");
         NamaPemain.add("Dimas Aresta");
-        PosisiPemain.add("Goalkeeper");
+        PosisiPemain.add("Kelungkung");
         UmurPemain.add("36 Tahun");
         WargaNegaraPemain.add("Chile");
         NoPemain.add("1");
