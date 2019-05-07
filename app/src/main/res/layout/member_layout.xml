@@ -4,73 +4,73 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="horizontal"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:padding="@dimen/activity_vertical_margin">
-    <TextView
-        android:id="@+id/judul"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Member"
-        android:textSize="30dp"
-        android:textStyle="bold"
-        android:layout_centerHorizontal="true"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" android:layout_below="@+id/judul"
-        android:text="Dosen"
-        android:layout_marginLeft="20dp"
-        android:textColor="@color/color"
-        android:textSize="20dp"
-        android:layout_marginTop="20dp"
-        android:textStyle="bold"
-        android:id="@+id/dosen"/>
+    android:layout_height="match_parent">
 
     <RelativeLayout
         android:layout_marginTop="20dp"
         android:id="@+id/layout_dosen"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/dosen"
         android:layout_centerHorizontal="true"
         android:orientation="vertical">
-        <android.support.v7.widget.RecyclerView
-            android:layout_width="wrap_content"
-            android:layout_height="20dp"
-            android:id="@+id/rec_dosen"/>
-    </RelativeLayout>
 
-    <RelativeLayout
-        android:layout_marginTop="20dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/layout_mahasiswa"
-        android:layout_below="@+id/layout_dosen">
+        <TextView
+            android:id="@+id/member"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Member"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/member"
+            android:text="Dosen"
+            android:layout_marginLeft="40dp"
+            android:textColor="@color/color"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:id="@+id/dosen"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_below="@+id/dosen"
+            android:layout_marginTop="20dp"
+            android:id="@+id/rec_dosen"/>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Mahasiswa"
-            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_below="@+id/rec_dosen"
             android:textColor="@color/color"
             android:textSize="20dp"
             android:textStyle="bold"
             android:id="@+id/mahasiswa"/>
+
         <android.support.v7.widget.RecyclerView
             android:id="@+id/listmahasiswa"
-            android:layout_width="match_parent"
-            android:layout_height="433dp"
+            android:layout_width="354dp"
+            android:layout_height="453dp"
             android:layout_below="@+id/mahasiswa"
-            android:layout_marginTop="20dp"/>
-    </RelativeLayout>
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp" />
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/layout_mahasiswa">
         <android.support.design.widget.BottomNavigationView
             android:id="@+id/nav_view"
+            android:layout_below="@+id/listmahasiswa"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="0dp"
+            android:layout_marginTop="14dp"
             android:background="?android:attr/windowBackground"
             app:menu="@menu/bottom_nav_menu"/>
     </RelativeLayout>

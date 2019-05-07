@@ -43,7 +43,7 @@ public class AssigmentActivity extends RecyclerView.Adapter<AssigmentActivity.Vi
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int i) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.assigment_layout,parent,false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.assignment,parent,false);
         ViewHolder holder = new ViewHolder(view);
         return holder;
     }
